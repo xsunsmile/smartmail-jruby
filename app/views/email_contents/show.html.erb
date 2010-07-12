@@ -1,0 +1,33 @@
+<p>
+  <b>Subject:</b>
+  <%=h @email_content.subject %>
+</p>
+
+<p>
+  <b>Email to:</b>
+  <%=h @email_content.email_to %>
+</p>
+
+<p>
+  <b>Email from:</b>
+  <%=h @email_content.email_from %>
+</p>
+
+<p>
+  <b>Email cc:</b>
+  <%=h @email_content.email_cc %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h @email_content.body %>
+</p>
+
+<p>
+  <b>Quotation:</b>
+  <%=h @email_content.quotation %>
+</p>
+
+
+<%= link_to 'Edit', edit_email_content_path(@email_content) %> |
+<%= link_to 'Back', email_contents_path %>

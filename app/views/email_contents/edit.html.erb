@@ -1,0 +1,36 @@
+<h1>Editing email_content</h1>
+
+<% form_for(@email_content) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :subject %><br />
+    <%= f.text_field :subject %>
+  </p>
+  <p>
+    <%= f.label :email_to %><br />
+    <%= f.text_field :email_to %>
+  </p>
+  <p>
+    <%= f.label :email_from %><br />
+    <%= f.text_field :email_from %>
+  </p>
+  <p>
+    <%= f.label :email_cc %><br />
+    <%= f.text_field :email_cc %>
+  </p>
+  <p>
+    <%= f.label :body %><br />
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.label :quotation %><br />
+    <%= f.text_area :quotation %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @email_content %> |
+<%= link_to 'Back', email_contents_path %>

@@ -1,0 +1,30 @@
+<h1>Listing email_contents</h1>
+
+<table>
+  <tr>
+    <th>Subject</th>
+    <th>Email to</th>
+    <th>Email from</th>
+    <th>Email cc</th>
+    <th>Body</th>
+    <th>Quotation</th>
+  </tr>
+
+<% @email_contents.each do |email_content| %>
+  <tr>
+    <td><%=h email_content.subject %></td>
+    <td><%=h email_content.email_to %></td>
+    <td><%=h email_content.email_from %></td>
+    <td><%=h email_content.email_cc %></td>
+    <td><%=h email_content.body %></td>
+    <td><%=h email_content.quotation %></td>
+    <td><%= link_to 'Show', email_content %></td>
+    <td><%= link_to 'Edit', edit_email_content_path(email_content) %></td>
+    <td><%= link_to 'Destroy', email_content, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New email_content', new_email_content_path %>
