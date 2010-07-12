@@ -1,0 +1,310 @@
+/!\ FAILSAFE /!\  Mon Jul 12 23:53:11 +0900 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /opt/local/share/java/jruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /opt/local/share/java/jruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /opt/local/share/java/jruby/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:49:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:31:in `require'
+    /opt/local/share/java/jruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Mon Jul 12 23:53:15 +0900 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /opt/local/share/java/jruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /opt/local/share/java/jruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /opt/local/share/java/jruby/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:49:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:31:in `require'
+    /opt/local/share/java/jruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (21.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (13.0ms)[0m   [0mCREATE TABLE schema_migrations (version VARCHAR(255) NOT NULL) [0m
+  [4;36;1mSQL (14.0ms)[0m   [0;1mSELECT name, sql FROM sqlite_master WHERE tbl_name = 'schema_migrations' AND type = 'index'[0m
+  [4;35;1mSQL (10.0ms)[0m   [0mCREATE UNIQUE INDEX unique_schema_migrations ON schema_migrations (version)[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateEmailContents (20100712144011)
+  [4;36;1mSQL (25.0ms)[0m   [0;1mCREATE TABLE email_contents (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, subject VARCHAR(255), email_to VARCHAR(255), email_from VARCHAR(255), email_cc VARCHAR(255), body text, quotation text, created_at DATETIME, updated_at DATETIME) [0m
+  [4;35;1mSQL (43.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100712144011')[0m
+  [4;36;1mSQL (3.0ms)[0m   [0;1mSELECT SEQ FROM SQLITE_SEQUENCE WHERE NAME = 'schema_migrations'[0m
+  [4;35;1mSQL (5.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (5.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT name, sql FROM sqlite_master WHERE tbl_name = 'email_contents' AND type = 'index'[0m
+
+
+Processing EmailContentsController#show (for 127.0.0.1 at 2010-07-12 23:56:50) [GET]
+  Parameters: {"id"=>"list"}
+  [4;36;1mEmailContent Load (9.0ms)[0m   [0;1mSELECT * FROM email_contents WHERE (email_contents.id = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find EmailContent with ID=list):
+  app/controllers/email_contents_controller.rb:16:in `show'
+  /opt/local/share/java/jruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/share/java/jruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (229.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing EmailContentsController#index (for 127.0.0.1 at 2010-07-12 23:56:54) [GET]
+  [4;35;1mEmailContent Load (17.0ms)[0m   [0mSELECT * FROM email_contents [0m
+Rendering template within layouts/email_contents
+Rendering email_contents/index
+Completed in 163ms (View: 125, DB: 17) | 200 OK [http://127.0.0.1/email_contents/]
+
+
+Processing EmailContentsController#new (for 127.0.0.1 at 2010-07-12 23:56:58) [GET]
+Rendering template within layouts/email_contents
+Rendering email_contents/new
+Completed in 213ms (View: 122, DB: 0) | 200 OK [http://127.0.0.1/email_contents/new]
+
+
+Processing EmailContentsController#index (for 127.0.0.1 at 2010-07-12 23:57:02) [GET]
+  [4;36;1mEmailContent Load (13.0ms)[0m   [0;1mSELECT * FROM email_contents [0m
+Rendering template within layouts/email_contents
+Rendering email_contents/index
+Completed in 36ms (View: 9, DB: 13) | 200 OK [http://127.0.0.1/email_contents]
+/!\ FAILSAFE /!\  Tue Jul 13 00:19:05 +0900 2010
+  Status: 500 Internal Server Error
+  The driver encountered an error: no connection available
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.7-java/lib/active_record/connection_adapters/jdbc_adapter.rb:344:in `initialize'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.7-java/lib/active_record/connection_adapters/jdbc_adapter.rb:476:in `new'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.7-java/lib/active_record/connection_adapters/jdbc_adapter.rb:476:in `initialize'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.7-java/lib/active_record/connection_adapters/jdbc_adapter.rb:49:in `new'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.7-java/lib/active_record/connection_adapters/jdbc_adapter.rb:49:in `jdbc_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /opt/local/share/java/jruby/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:49:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/share/java/jruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /opt/local/share/java/jruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:31:in `require'
+    /opt/local/share/java/jruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (24.0ms)[0m   [0;1mCREATE TABLE schema_migrations (version varchar(256) NOT NULL) [0m
+  [4;35;1mSQL (16.0ms)[0m   [0mCREATE UNIQUE INDEX unique_schema_migrations ON schema_migrations (version)[0m
+  [4;36;1mSQL (9.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateEmailContents (20100712144011)
+  [4;35;1mSQL (67.0ms)[0m   [0mCREATE TABLE email_contents (id int generated by default as identity NOT NULL PRIMARY KEY, subject varchar(256), email_to varchar(256), email_from varchar(256), email_cc varchar(256), body clob, quotation clob, created_at timestamp, updated_at timestamp) [0m
+  [4;36;1mSQL (30.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100712144011')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+
+
+Processing EmailContentsController#index (for 127.0.0.1 at 2010-07-13 00:20:58) [GET]
+  [4;36;1mEmailContent Load (105.0ms)[0m   [0;1mSELECT * FROM email_contents [0m
+Rendering template within layouts/email_contents
+Rendering email_contents/index
+Completed in 485ms (View: 330, DB: 105) | 200 OK [http://127.0.0.1/email_contents]
+
+
+Processing EmailContentsController#new (for 127.0.0.1 at 2010-07-13 00:21:01) [GET]
+Rendering template within layouts/email_contents
+Rendering email_contents/new
+Completed in 400ms (View: 145, DB: 0) | 200 OK [http://127.0.0.1/email_contents/new]
+
+
+Processing EmailContentsController#create (for 127.0.0.1 at 2010-07-13 00:21:22) [POST]
+  Parameters: {"authenticity_token"=>"twIYPjuoTOL7avf3buWifYCDoLmIoHeFsiRrKbGM/5o=", "email_content"=>{"subject"=>"test", "email_to"=>"sxdaf", "email_from"=>"sdf", "email_cc"=>"asdf", "body"=>"日本後テストだｆｄｆ", "quotation"=>"あｓｄふぁｄ"}, "commit"=>"Create"}
+  [4;35;1mSQL (60.0ms)[0m   [0mINSERT INTO email_contents (subject, email_to, email_from, email_cc, body, quotation, created_at, updated_at) VALUES('test', 'sxdaf', 'sdf', 'asdf', CAST('日本後テストだｆｄｆ' AS CLOB), CAST('あｓｄふぁｄ' AS CLOB), '2010-07-12 15:21:22', '2010-07-12 15:21:22')[0m
+Redirected to http://127.0.0.1:3000/email_contents/1
+Completed in 165ms (DB: 60) | 302 Found [http://127.0.0.1/email_contents]
+
+
+Processing EmailContentsController#show (for 127.0.0.1 at 2010-07-13 00:21:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEmailContent Load (10.0ms)[0m   [0;1mSELECT * FROM email_contents WHERE (email_contents.id = 1) [0m
+Rendering template within layouts/email_contents
+Rendering email_contents/show
+Completed in 92ms (View: 34, DB: 10) | 200 OK [http://127.0.0.1/email_contents/1]
+
+
+Processing EmailContentsController#index (for 127.0.0.1 at 2010-07-13 00:21:24) [GET]
+  [4;35;1mEmailContent Load (1.0ms)[0m   [0mSELECT * FROM email_contents [0m
+Rendering template within layouts/email_contents
+Rendering email_contents/index
+Completed in 69ms (View: 51, DB: 1) | 200 OK [http://127.0.0.1/email_contents]
+
+
+Processing EmailContentsController#show (for 127.0.0.1 at 2010-07-13 00:21:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEmailContent Load (1.0ms)[0m   [0;1mSELECT * FROM email_contents WHERE (email_contents.id = 1) [0m
+Rendering template within layouts/email_contents
+Rendering email_contents/show
+Completed in 51ms (View: 17, DB: 1) | 200 OK [http://127.0.0.1/email_contents/1]
+
+
+Processing EmailContentsController#index (for 127.0.0.1 at 2010-07-13 00:21:52) [GET]
+  [4;36;1mEmailContent Load (119.0ms)[0m   [0;1mSELECT * FROM email_contents [0m
+Rendering template within layouts/email_contents
+Rendering email_contents/index
+Completed in 657ms (View: 490, DB: 119) | 200 OK [http://127.0.0.1/email_contents]
+
+
+Processing EmailContentsController#destroy (for 127.0.0.1 at 2010-07-13 00:21:56) [DELETE]
+  Parameters: {"authenticity_token"=>"twIYPjuoTOL7avf3buWifYCDoLmIoHeFsiRrKbGM/5o=", "id"=>"1"}
+  [4;35;1mEmailContent Load (34.0ms)[0m   [0mSELECT * FROM email_contents WHERE (email_contents.id = 1) [0m
+  [4;36;1mEmailContent Destroy (40.0ms)[0m   [0;1mDELETE FROM email_contents WHERE id = 1[0m
+Redirected to http://127.0.0.1:3000/email_contents
+Completed in 138ms (DB: 74) | 302 Found [http://127.0.0.1/email_contents/1]
+
+
+Processing EmailContentsController#index (for 127.0.0.1 at 2010-07-13 00:21:56) [GET]
+  [4;35;1mEmailContent Load (1.0ms)[0m   [0mSELECT * FROM email_contents [0m
+Rendering template within layouts/email_contents
+Rendering email_contents/index
+Completed in 40ms (View: 12, DB: 1) | 200 OK [http://127.0.0.1/email_contents]
